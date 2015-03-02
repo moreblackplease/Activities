@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>	<meta charset="utf-8"/>
+			<title>   </title>
+			<style type="text/css">
+
+				div{
+					width: 100px;
+					height: 100px;
+					-webkit-animation: myfirst 1s;
+					animation: myfirst 1s;
+				}
+
+				/*#filtered{
+					-webkit-filter: grayscale(50%);
+					-webkit-filter: contrast(50%);
+					-webkit-filter: hue-rotate(80deg);
+					-webkit-filter: invert(80%);
+				}*/
+
+				@-webkit-keyframes myfirst{
+					0%{-webkit-filter: grayscale(10%);}
+					25%{-webkit-filter: invert(80%);}
+					50%{-webkit-filter: hue-rotate(80deg);}
+					75%{-webkit-filter: contrast(50%);}
+					100%{-webkit-filter: grayscale(100%);}
+				}
+			</style>
+				
+	</head>
+
+			<body>
+				<div>
+				<img src="img/lamb.jpeg" alt="Baaaaa"id="filtered">
+				</div>
+					
+
+			</body>
+
+</html>
